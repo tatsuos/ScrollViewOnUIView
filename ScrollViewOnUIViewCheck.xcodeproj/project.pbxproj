@@ -63,6 +63,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3FCE0E11B2CA0DE00D35A0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA7ACCA21B147E0D00DAA45A /* AppDelegate.h */,
+				EA7ACCA31B147E0D00DAA45A /* AppDelegate.m */,
+				EA7ACCA51B147E0D00DAA45A /* ViewController.h */,
+				EA7ACCA61B147E0D00DAA45A /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A3FCE0E21B2CA0EA00D35A0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA7ACCC41B147EC600DAA45A /* FirstView.h */,
+				EA7ACCC51B147EC600DAA45A /* FirstView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A3FCE0E31B2CA0F300D35A0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A3FCE0E41B2CA10100D35A0D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA7ACCA81B147E0D00DAA45A /* Main.storyboard */,
+				EA7ACCAB1B147E0D00DAA45A /* Images.xcassets */,
+				EA7ACCAD1B147E0D00DAA45A /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		EA7ACC921B147E0C00DAA45A = {
 			isa = PBXGroup;
 			children = (
@@ -84,15 +121,10 @@
 		EA7ACC9D1B147E0D00DAA45A /* ScrollViewOnUIViewCheck */ = {
 			isa = PBXGroup;
 			children = (
-				EA7ACCA21B147E0D00DAA45A /* AppDelegate.h */,
-				EA7ACCA31B147E0D00DAA45A /* AppDelegate.m */,
-				EA7ACCA51B147E0D00DAA45A /* ViewController.h */,
-				EA7ACCA61B147E0D00DAA45A /* ViewController.m */,
-				EA7ACCC41B147EC600DAA45A /* FirstView.h */,
-				EA7ACCC51B147EC600DAA45A /* FirstView.m */,
-				EA7ACCA81B147E0D00DAA45A /* Main.storyboard */,
-				EA7ACCAB1B147E0D00DAA45A /* Images.xcassets */,
-				EA7ACCAD1B147E0D00DAA45A /* LaunchScreen.xib */,
+				A3FCE0E31B2CA0F300D35A0D /* Models */,
+				A3FCE0E21B2CA0EA00D35A0D /* Views */,
+				A3FCE0E11B2CA0DE00D35A0D /* Controllers */,
+				A3FCE0E41B2CA10100D35A0D /* Resources */,
 				EA7ACC9E1B147E0D00DAA45A /* Supporting Files */,
 			);
 			path = ScrollViewOnUIViewCheck;

@@ -37,6 +37,9 @@
     [fview._scrollView setContentSize:CGSizeMake(320, 560)];
 }
 
+
+#pragma mark - Action
+
 - (IBAction)change:(id)sender
 {
     fview.isFlag = !fview.isFlag;
